@@ -1,15 +1,18 @@
 import { useState } from 'react';
 import './App.css';
-import Header from './components/header.js'
+import Header from './components/header/header.js'
+import Advantages from './components/main/advantages';
+import Hero from './components/main/hero';
+import OurClients from './components/main/ourClients';
 
 function App() {
-  const [yanto, setYanto] = useState('halo, nama saya YANTO')
 
   return (
     <>
-      <h1>{yanto}</h1>
-      <Header name="yantoo"/>
-      
+      <Header />
+      <Hero />
+      <OurClients />
+      <Advantages />
     </>
     
   );
