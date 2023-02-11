@@ -169,6 +169,7 @@ a {
 /* our clients */
 .our-clients {
   margin-bottom: 235px;
+  overflow: hidden;
 }
 
 .oc-inner1 {
